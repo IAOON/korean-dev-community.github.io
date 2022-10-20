@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "install": "cd docs && npm install",
+    "dev": "cd docs && npm run dev",
+    "build": "cd docs && npm run build"
+  },
+  "name": "korean-dev-community.github.io",
+  "description": "korean dev community webpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAOON/korean-dev-community.github.io.git"
+  },
+  "author": "korean-dev-community",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IAOON/korean-dev-community.github.io/issues"
+  },
+  "homepage": "https://github.com/IAOON/korean-dev-community.github.io#readme"
+}

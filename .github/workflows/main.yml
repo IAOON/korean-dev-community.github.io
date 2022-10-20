@@ -1,5 +1,4 @@
-
-name: Build and Deploy
+name: deploy
 on: [push]
 jobs:
   build-and-deploy:
@@ -8,10 +7,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Deploy Build Files
-      uses: jenkey2011/vuepress-deploy@1.0.1
+    - name: Build and Deploy
+      uses: jenkey2011/vuepress-deploy@dev
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_SCRIPT: yarn && yarn docs:build
-        TARGET_BRANCH: gh-pages
-        BUILD_DIR: docs/.vuepress/dist
+        TARGET_REPO: kffug/kffug.github.io
+        TARGET_BRANCH: gh_pages
+        BUILD_SCRIPT: yarn install && yarn build
+        BUILD_DIR: docs/src/.vuepress/dist/

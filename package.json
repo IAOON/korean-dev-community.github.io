@@ -2,7 +2,7 @@
   "scripts": {
     "install": "cd docs && npm install",
     "dev": "cd docs && npm run dev",
-    "build": "cd docs && npm run build --scripts-prepend-node-path"
+    "build": "cd docs && npm run build"
   },
   "name": "test-korean-dev-community.github.io",
   "description": "korean dev community webpage",

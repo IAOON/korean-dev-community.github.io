@@ -4,7 +4,7 @@
     "dev": "cd docs && npm run dev",
     "build": "cd docs && npm run build --scripts-prepend-node-path"
   },
-  "name": "korean-dev-community.github.io",
+  "name": "test-korean-dev-community.github.io",
   "description": "korean dev community webpage",
   "version": "1.0.0",
   "main": "index.js",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/IAOON/korean-dev-community.github.io/issues"
   },
-  "homepage": "https://github.com/IAOON/korean-dev-community.github.io#readme"
+  "homepage": "https://github.com/IAOON/korean-dev-community.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.11"
+  }
 }

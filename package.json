@@ -1,27 +1,15 @@
 {
-  "scripts": {
-    "install": "cd docs && npm install",
-    "dev": "cd docs && npm run dev",
-    "build": "cd docs && npm run build"
-  },
-  "name": "test-korean-dev-community.github.io",
-  "description": "korean dev community webpage",
+  "name": "korean-dev-community.github.io",
   "version": "1.0.0",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IAOON/korean-dev-community.github.io.git"
-  },
-  "author": "korean-dev-community",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/IAOON/korean-dev-community.github.io/issues"
-  },
-  "homepage": "https://github.com/IAOON/korean-dev-community.github.io#readme",
+  "repository": "https://github.com/IAOON/korean-dev-community.github.io.git",
+  "author": "IAOON <matsuruka@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
-    "vuepress": "^0.14.11"
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   }
 }
